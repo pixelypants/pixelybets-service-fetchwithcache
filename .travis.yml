@@ -12,3 +12,4 @@ deploy:
   bucket: pixelybets-service-fetchwithcache
   skip_cleanup: true
   local_dir: build
+  alc: public_read
