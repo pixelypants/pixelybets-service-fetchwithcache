@@ -10,7 +10,7 @@ module.exports = {
     filename: 'fetchWithCache.js',
     library: 'fetchWithCache',
     libraryTarget: 'amd',
-    path: path.resolve(__dirname, 'build/fetchWithCache'),
+    path: path.resolve(__dirname, 'build'),
   },
   mode: 'production',
   module: {
@@ -78,7 +78,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['build/fetchWithCache']),
     CopyWebpackPlugin([
-      {from: path.resolve(__dirname, 'src/fetchWithCache.js')}
+      { from: path.resolve(__dirname, 'src/fetchWithCache.js') }
     ]),
   ],
   devtool: 'source-map',
