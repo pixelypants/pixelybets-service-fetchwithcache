@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --config ./webpack.dev.js --port 8238",
     "audit-fix": "npm audit fix"
   },
-  "author": "",
+  "author": "Hudson Graham",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0"
